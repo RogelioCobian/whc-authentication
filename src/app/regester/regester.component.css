@@ -1,0 +1,20 @@
+.container-fluid
+{
+  margin-top: 15vh;
+  padding-top: 10vh;
+  background-color: #eaeaea;
+  text-align: center;
+  height: 60vh;
+  border-radius: 5px;
+
+}
+.row
+{
+  display: flex;
+  justify-content: center;
+}
+.col-xs-3
+{
+  margin-bottom: 1vh;
+  margin-left: 1vh;
+}
