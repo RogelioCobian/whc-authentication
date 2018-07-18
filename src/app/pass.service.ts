@@ -12,17 +12,17 @@ export class PassService {
   // Should add (maybe) a for loop that checks through list
   // If the value is equal to one of the objects email and password then login
 
-  // constructor(private passService: PassService) {}
+  constructor(private passService: PassService) {}
 
 
-  // addAccount(firstName: string,
-  //            lastName: string,
-  //            email: string,
-  //            password: string) {
+  addAccount(firstName: string,
+             lastName: string,
+             email: string,
+             password: string) {
 
-  //   this.users.push({firstName, lastName, email, password});
+    this.users.push({firstName, lastName, email, password});
 
-  // }
+  }
 
   // checkAccount(name: string, password: string) {
 
