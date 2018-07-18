@@ -16,6 +16,8 @@ export class RegesterComponent implements OnInit {
   ngOnInit() {
   }
 
+  // Developer Notes:
+  // Called get values because once button is clicked it should start to catch values within those inputs
   getValues() {
     this.router.navigate(['dashboard']);
   }

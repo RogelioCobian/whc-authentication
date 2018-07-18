@@ -8,6 +8,9 @@ export class PassService {
     }
   ];
 
+  // Once values are catched it will push it into this array.
+  // Should add (maybe) a for loop that checks through list
+  // If the value is equal to one of the objects email and password then login
 
   // constructor(private passService: PassService) {}
 
